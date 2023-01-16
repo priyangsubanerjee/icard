@@ -6,7 +6,7 @@ function Profile() {
   return (
     <Page>
       <img
-        src="https://wallpaperaccess.com/full/1155021.jpg"
+        src="https://www.fonewalls.com/wp-content/uploads/2019/10/Gradient-Background-Wallpaper-001-300x585.jpg"
         className="h-full w-full object-cover fixed inset-0 z-0"
         alt=""
       />
@@ -23,7 +23,7 @@ function Profile() {
         <h2 className="text-sm text-neutral-200 mt-2">
           Developer advocate | @FSD
         </h2>
-        <button className="flex items-center text-sm lg:hover:underline text-black bg-white rounded-full px-3 py-1 mt-6 border-b-4 active:border-transparent active:translate-y-1 border-teal-500 select-none transition-all">
+        <button className="flex items-center text-sm lg:hover:underline text-black bg-white rounded-full px-3 py-1 mt-6 border-b-4 active:border-transparent active:translate-y-1 border-black select-none transition-all">
           <i class="bi bi-envelope-heart text-lg"></i>
           <span className="-mt-0 ml-2">Send anonymous message</span>
         </button>
