@@ -23,7 +23,7 @@ function Profile() {
         <h2 className="text-sm text-neutral-200 mt-2">
           Developer advocate | @FSD
         </h2>
-        <button className="flex items-center text-sm lg:hover:underline text-black bg-white rounded-full px-3 mt-6">
+        <button className="flex items-center text-sm lg:hover:underline text-black bg-white rounded-full px-3 py-1 mt-6 border-b-4 active:border-transparent active:translate-y-1 border-teal-500 select-none transition-all">
           <i class="bi bi-envelope-heart text-lg"></i>
           <span className="-mt-0 ml-2">Send anonymous message</span>
         </button>
