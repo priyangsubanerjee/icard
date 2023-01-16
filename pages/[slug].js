@@ -11,12 +11,7 @@ function Profile() {
         alt=""
       />
       <div className="pb-32 fixed inset-0 h-screen w-screen overflow-auto z-10 flex flex-col items-center pt-6 bg-black/20">
-        <div className="flex items-center w-full px-7 mb-5 text-xl text-white">
-          <button className="text-sm">Edit page</button>
-          <button className="ml-auto">
-            <i class="bi bi-chat-left-text"></i>
-          </button>
-        </div>
+        <div className="flex items-center justify-center w-full px-7 mb-7 text-xl text-white"></div>
         <img
           src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc="
           alt=""
@@ -28,6 +23,10 @@ function Profile() {
         <h2 className="text-sm text-neutral-200 mt-2">
           Developer advocate | @FSD
         </h2>
+        <button className="flex items-center text-sm lg:hover:underline text-black bg-white rounded-full px-3 mt-6">
+          <i class="bi bi-envelope-heart text-lg"></i>
+          <span className="-mt-0 ml-2">Send anonymous message</span>
+        </button>
         <ul className="text-2xl mt-10 text-white flex items-center flex-wrap gap-6">
           <li>
             <i class="bi bi-facebook"></i>
