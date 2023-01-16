@@ -6,7 +6,7 @@ function Profile() {
   return (
     <Page>
       <img
-        src="https://www.fonewalls.com/wp-content/uploads/2019/10/Gradient-Background-Wallpaper-013-300x585.jpg"
+        src="https://i.pinimg.com/originals/f1/3f/b3/f13fb34cc03956b16ad356f8122b9621.jpg"
         className="h-full w-full object-cover fixed inset-0 z-0"
         alt=""
       />
