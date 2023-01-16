@@ -6,13 +6,14 @@ function Profile() {
   return (
     <Page>
       <img
-        src="https://wallpapersmug.com/download/1280x2120/920758/abstract-dark-red-4k.jpg"
+        src="https://wallpaperaccess.com/full/1155021.jpg"
         className="h-full w-full object-cover fixed inset-0 z-0"
         alt=""
       />
       <div className="pb-32 fixed inset-0 h-screen w-screen overflow-auto z-10 flex flex-col items-center pt-6 bg-black/20">
-        <div className="flex items-center justify-end w-full px-7 mb-5 text-2xl text-white">
-          <button>
+        <div className="flex items-center w-full px-7 mb-5 text-xl text-white">
+          <button className="text-sm">Edit page</button>
+          <button className="ml-auto">
             <i class="bi bi-chat-left-text"></i>
           </button>
         </div>
@@ -53,7 +54,7 @@ function Profile() {
             <i class="bi bi-twitter"></i>
           </li>
         </ul>
-        <ul className="w-full mt-14 text-center px-7 space-y-4">
+        <ul className="w-full lg:w-[600px] mt-14 text-center px-7 space-y-4">
           <li>
             <button className="p-3 rounded-full border text-white w-full active:bg-white active:text-slate-900 transition-all select-none">
               Lorem ipsum dolor sit amet consectetur.
